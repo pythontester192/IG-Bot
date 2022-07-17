@@ -7,6 +7,6 @@
  •	Unfollow Users<br/>
 # How to Use This Bot
  •	Install Requirements<br/>
-    pip install -r requirements.txt<br/><br/>
+       pip install -r requirements.txt<br/><br/>
  •	Watch This Full Tutorial on How to use this Bot Step by Step<br/>
    > coming soon..
