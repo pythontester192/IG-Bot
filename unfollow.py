@@ -61,6 +61,8 @@ def main():
                     pass
                 if i >= int(num_unfollow):
                     break
+            
+            browser.execute_script("arguments[0].scrollIntoView(true);", list_of_following[i])
 
             answer = input("The programm finished! Click on 'e' to exit.. ")
             if answer.lower().startswith("e"):

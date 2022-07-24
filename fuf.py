@@ -59,6 +59,8 @@ def main():
                 if i >= int(num_follow):
                     break
 
+            browser.execute_script("arguments[0].scrollIntoView(true);", list_of_followers[i])
+
             answer = input("The programm finished! Click on 'e' to exit.. ")
             if answer.lower().startswith("e"):
                 browser.quit()
